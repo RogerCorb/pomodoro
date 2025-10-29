@@ -64,12 +64,12 @@ header {
 }
 
 @mixin paragrafo-settings(
-  $position: relative,
+  $position: absolute,
   $width: 219px,
   $height: 147px,
 
   $opacity: 1,
-  $margin-left: 12px,
+  $margin-left: 5px,
   $margin-top: 362px
 ) {
   position: $position;
@@ -119,14 +119,13 @@ header {
     width: 100%;
     height: 147px;
     p {
-      font-family: "Chau Philomene One";
-      letter-spacing: 0%;
+      @include p-settings(
+        $line-height: 49px,
+        $font-style: normal,
+        $color: #000000,
+        $font-size: 2.8rem
+      );
       margin-left: 34px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 3rem;
-      line-height: 49px;
-      color: #000000;
     }
   }
 }
@@ -148,7 +147,7 @@ header {
       margin-left: 8px;
     }
     .paragrafo-tasks {
-      @include paragrafo-settings();
+      @include paragrafo-settings($position: relative, $margin-left: 12px);
       p {
         @include p-settings();
       }
@@ -166,13 +165,8 @@ header {
       transform: translate(-50%, -50%);
     }
     .paragrafo-image {
-      position: absolute;
-      margin-left: 5px;
+      @include paragrafo-settings($width: 355px);
       bottom: 0;
-      width: 355px;
-      height: 147px;
-      opacity: 1;
-
       p {
         @include p-settings();
       }
@@ -190,13 +184,8 @@ header {
       transform: translate(-50%, -50%);
     }
     .paragrafo-pause {
-      position: absolute;
+      @include paragrafo-settings($width: 298px, $height: 98px);
       bottom: 0;
-      margin-left: 5px;
-      width: 298px;
-      height: 98px;
-      opacity: 1;
-
       p {
         @include p-settings();
       }
@@ -214,13 +203,8 @@ header {
       transform: translate(-50%, -50%);
     }
     .paragrafo-other {
-      position: absolute;
+      @include paragrafo-settings($width: 364px);
       bottom: 0;
-      margin-left: 5px;
-      width: 364px;
-      height: 147px;
-      opacity: 1;
-
       p {
         @include p-settings();
       }
@@ -238,13 +222,8 @@ header {
       transform: translate(-50%, -50%);
     }
     .paragrafo-four {
-      position: absolute;
+      @include paragrafo-settings($width: 354px);
       bottom: 0;
-      margin-left: 5px;
-      width: 354px;
-      height: 147px;
-      opacity: 1;
-
       p {
         @include p-settings();
       }
@@ -262,12 +241,8 @@ header {
       transform: translate(-50%, -50%);
     }
     .paragrafo-initial-cicle {
-      position: absolute;
+      @include paragrafo-settings($margin-left: 10px, $width: 364px);
       bottom: 0;
-      margin-left: 10px;
-      width: 364px;
-      height: 147px;
-      opacity: 1;
 
       p {
         @include p-settings();

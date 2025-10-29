@@ -67,14 +67,14 @@ header {
   height: 147px;
 }
 .box-description .paragrafo-description p {
-  font-family: "Chau Philomene One";
-  letter-spacing: 0%;
-  margin-left: 34px;
-  font-style: normal;
+  font-family: Chau Philomene One;
   font-weight: 400;
-  font-size: 3rem;
+  font-style: normal;
+  font-size: 2.8rem;
   line-height: 49px;
+  letter-spacing: 0%;
   color: #000000;
+  margin-left: 34px;
 }
 
 .box-images {
@@ -137,11 +137,12 @@ header {
 }
 .box-images .select-time .paragrafo-image {
   position: absolute;
-  margin-left: 5px;
-  bottom: 0;
   width: 355px;
   height: 147px;
   opacity: 1;
+  margin-left: 5px;
+  margin-top: 362px;
+  bottom: 0;
 }
 .box-images .select-time .paragrafo-image p {
   font-family: Chau Philomene One;
@@ -171,11 +172,12 @@ header {
 }
 .box-images .select-pause .paragrafo-pause {
   position: absolute;
-  bottom: 0;
-  margin-left: 5px;
   width: 298px;
   height: 98px;
   opacity: 1;
+  margin-left: 5px;
+  margin-top: 362px;
+  bottom: 0;
 }
 .box-images .select-pause .paragrafo-pause p {
   font-family: Chau Philomene One;
@@ -205,11 +207,12 @@ header {
 }
 .box-images .select-other-pom .paragrafo-other {
   position: absolute;
-  bottom: 0;
-  margin-left: 5px;
   width: 364px;
   height: 147px;
   opacity: 1;
+  margin-left: 5px;
+  margin-top: 362px;
+  bottom: 0;
 }
 .box-images .select-other-pom .paragrafo-other p {
   font-family: Chau Philomene One;
@@ -239,11 +242,12 @@ header {
 }
 .box-images .select-four .paragrafo-four {
   position: absolute;
-  bottom: 0;
-  margin-left: 5px;
   width: 354px;
   height: 147px;
   opacity: 1;
+  margin-left: 5px;
+  margin-top: 362px;
+  bottom: 0;
 }
 .box-images .select-four .paragrafo-four p {
   font-family: Chau Philomene One;
@@ -273,11 +277,12 @@ header {
 }
 .box-images .select-initial-cicle .paragrafo-initial-cicle {
   position: absolute;
-  bottom: 0;
-  margin-left: 10px;
   width: 364px;
   height: 147px;
   opacity: 1;
+  margin-left: 10px;
+  margin-top: 362px;
+  bottom: 0;
 }
 .box-images .select-initial-cicle .paragrafo-initial-cicle p {
   font-family: Chau Philomene One;
