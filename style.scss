@@ -63,7 +63,21 @@ header {
   color: $color;
 }
 
-@mixin div-settings() {
+@mixin paragrafo-settings(
+  $position: relative,
+  $width: 219px,
+  $height: 147px,
+
+  $opacity: 1,
+  $margin-left: 12px,
+  $margin-top: 362px
+) {
+  position: $position;
+  width: $width;
+  height: $height;
+  opacity: $opacity;
+  margin-left: $margin-left;
+  margin-top: $margin-top;
 }
 
 .nav-left {
@@ -134,13 +148,7 @@ header {
       margin-left: 8px;
     }
     .paragrafo-tasks {
-      position: relative;
-      width: 219px;
-      height: 147px;
-
-      opacity: 1;
-      margin-left: 12px;
-      margin-top: 362px;
+      @include paragrafo-settings();
       p {
         @include p-settings();
       }
