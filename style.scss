@@ -45,6 +45,27 @@ header {
   border-radius: $border-radius;
 }
 
+@mixin p-settings(
+  $font-family: Chau Philomene One,
+  $font-weight: 400,
+  $font-style: Regular,
+  $font-size: 36px,
+  $line-height: 100%,
+  $letter-spacing: 0%,
+  $color: #ffffff
+) {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-style: $font-style;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
+@mixin div-settings() {
+}
+
 .nav-left {
   display: flex;
   justify-content: space-between;
@@ -121,13 +142,7 @@ header {
       margin-left: 12px;
       margin-top: 362px;
       p {
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
+        @include p-settings();
       }
     }
   }
@@ -151,13 +166,7 @@ header {
       opacity: 1;
 
       p {
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
+        @include p-settings();
       }
     }
   }
@@ -181,13 +190,7 @@ header {
       opacity: 1;
 
       p {
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
+        @include p-settings();
       }
     }
   }
@@ -211,13 +214,7 @@ header {
       opacity: 1;
 
       p {
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
+        @include p-settings();
       }
     }
   }
@@ -241,13 +238,7 @@ header {
       opacity: 1;
 
       p {
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
+        @include p-settings();
       }
     }
   }
@@ -271,14 +262,8 @@ header {
       opacity: 1;
 
       p {
+        @include p-settings();
         padding-top: 15px;
-        font-family: Chau Philomene One;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 36px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        color: #ffffff;
       }
     }
   }

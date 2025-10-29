@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chau Philomene One", sans-serif;
+}
+
+header {
+  background-image: url("./img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem 2rem;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.navbar .menu-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+}
+.nav-left .btn {
+  background-color: #b72222;
+  color: #d7cbcb;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+}
+
+.box-banner {
+  height: 83vh;
+  color: #d7cbcb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.box-banner h1 {
+  font-size: 7rem;
+}
+.box-banner p {
+  color: #fd1e1e;
+  font-size: 2.5rem;
+}
+
+.box-description {
+  background: #d7cbcb;
+  width: 100%;
+  height: 205px;
+  left: 0px;
+  top: 810px;
+}
+.box-description .paragrafo-description {
+  width: 100%;
+  height: 147px;
+}
+.box-description .paragrafo-description p {
+  font-family: "Chau Philomene One";
+  letter-spacing: 0%;
+  margin-left: 34px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 49px;
+  color: #000000;
+}
+
+.box-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 1284px;
+  background-color: #000000;
+}
+.box-images .select-tasks {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-tasks .image-tasks {
+  position: absolute;
+  width: 389px;
+  height: 369px;
+  margin-top: 55px;
+  margin-left: 8px;
+}
+.box-images .select-tasks .paragrafo-tasks {
+  position: relative;
+  width: 219px;
+  height: 147px;
+  opacity: 1;
+  margin-left: 12px;
+  margin-top: 362px;
+}
+.box-images .select-tasks .paragrafo-tasks p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.box-images .select-time {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-time .image-time {
+  width: 375px;
+  height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-images .select-time .paragrafo-image {
+  position: absolute;
+  margin-left: 5px;
+  bottom: 0;
+  width: 355px;
+  height: 147px;
+  opacity: 1;
+}
+.box-images .select-time .paragrafo-image p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.box-images .select-pause {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-pause .pause {
+  width: 375px;
+  height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-images .select-pause .paragrafo-pause {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5px;
+  width: 298px;
+  height: 98px;
+  opacity: 1;
+}
+.box-images .select-pause .paragrafo-pause p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.box-images .select-other-pom {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-other-pom .other-pom {
+  width: 375px;
+  height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-images .select-other-pom .paragrafo-other {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5px;
+  width: 364px;
+  height: 147px;
+  opacity: 1;
+}
+.box-images .select-other-pom .paragrafo-other p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.box-images .select-four {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-four .four {
+  width: 357px;
+  height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-images .select-four .paragrafo-four {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5px;
+  width: 354px;
+  height: 147px;
+  opacity: 1;
+}
+.box-images .select-four .paragrafo-four p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.box-images .select-initial-cicle {
+  width: 405px;
+  height: 525px;
+  background-color: #b72222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 34px;
+  border-radius: 8px;
+}
+.box-images .select-initial-cicle .initial-cicle {
+  width: 375px;
+  height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-images .select-initial-cicle .paragrafo-initial-cicle {
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  width: 364px;
+  height: 147px;
+  opacity: 1;
+}
+.box-images .select-initial-cicle .paragrafo-initial-cicle p {
+  font-family: Chau Philomene One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-top: 15px;
+}/*# sourceMappingURL=style.css.map */
