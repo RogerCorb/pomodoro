@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chau Philomene One", sans-serif;
+}
+
+header {
+  background-image: url("./img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 1.5rem 2rem;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  .menu-icon {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+@mixin card-settings(
+  $width: 405px,
+  $height: 525px,
+  $opacity: 1,
+  $margin-top: 25px,
+  $margin-left: 34px,
+  $border-radius: 8px,
+  $background-color: #b72222
+) {
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  opacity: $opacity;
+  margin-top: $margin-top;
+  margin-left: $margin-left;
+  border-radius: $border-radius;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  .btn {
+    background-color: #b72222;
+    color: #d7cbcb;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+.box-banner {
+  height: 83vh;
+  color: #d7cbcb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  h1 {
+    font-size: 7rem;
+  }
+  p {
+    color: #fd1e1e;
+    font-size: 2.5rem;
+  }
+}
+
+.box-description {
+  background: #d7cbcb;
+  width: 100%;
+  height: 205px;
+  left: 0px;
+  top: 810px;
+  .paragrafo-description {
+    width: 100%;
+    height: 147px;
+    p {
+      font-family: "Chau Philomene One";
+      letter-spacing: 0%;
+      margin-left: 34px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 49px;
+      color: #000000;
+    }
+  }
+}
+
+.box-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 1284px;
+  background-color: #000000;
+  .select-tasks {
+    @include card-settings();
+    .image-tasks {
+      position: absolute;
+      width: 389px;
+      height: 369px;
+      margin-top: 55px;
+      margin-left: 8px;
+    }
+    .paragrafo-tasks {
+      position: relative;
+      width: 219px;
+      height: 147px;
+
+      opacity: 1;
+      margin-left: 12px;
+      margin-top: 362px;
+      p {
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+  .select-time {
+    @include card-settings();
+
+    .image-time {
+      width: 375px;
+      height: 500px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .paragrafo-image {
+      position: absolute;
+      margin-left: 5px;
+      bottom: 0;
+      width: 355px;
+      height: 147px;
+      opacity: 1;
+
+      p {
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+  .select-pause {
+    @include card-settings();
+
+    .pause {
+      width: 375px;
+      height: 500px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .paragrafo-pause {
+      position: absolute;
+      bottom: 0;
+      margin-left: 5px;
+      width: 298px;
+      height: 98px;
+      opacity: 1;
+
+      p {
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+  .select-other-pom {
+    @include card-settings();
+
+    .other-pom {
+      width: 375px;
+      height: 500px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .paragrafo-other {
+      position: absolute;
+      bottom: 0;
+      margin-left: 5px;
+      width: 364px;
+      height: 147px;
+      opacity: 1;
+
+      p {
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+  .select-four {
+    @include card-settings();
+
+    .four {
+      width: 357px;
+      height: 500px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .paragrafo-four {
+      position: absolute;
+      bottom: 0;
+      margin-left: 5px;
+      width: 354px;
+      height: 147px;
+      opacity: 1;
+
+      p {
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+  .select-initial-cicle {
+    @include card-settings();
+
+    .initial-cicle {
+      width: 375px;
+      height: 500px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .paragrafo-initial-cicle {
+      position: absolute;
+      bottom: 0;
+      margin-left: 10px;
+      width: 364px;
+      height: 147px;
+      opacity: 1;
+
+      p {
+        padding-top: 15px;
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+    }
+  }
+}
