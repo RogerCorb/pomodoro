@@ -1,0 +1,52 @@
+@mixin card-settings(
+  $width: 405px,
+  $height: 525px,
+  $opacity: 1,
+  $margin-top: 25px,
+  $margin-left: 34px,
+  $border-radius: 8px,
+  $background-color: #b72222
+) {
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  opacity: $opacity;
+  margin-top: $margin-top;
+  margin-left: $margin-left;
+  border-radius: $border-radius;
+}
+
+@mixin p-settings(
+  $font-family: Chau Philomene One,
+  $font-weight: 400,
+  $font-style: Regular,
+  $font-size: 36px,
+  $line-height: 100%,
+  $letter-spacing: 0%,
+  $color: #ffffff
+) {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-style: $font-style;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
+@mixin paragrafo-settings(
+  $position: absolute,
+  $width: 219px,
+  $height: 147px,
+
+  $opacity: 1,
+  $margin-left: 5px,
+  $margin-top: 362px
+) {
+  position: $position;
+  width: $width;
+  height: $height;
+  opacity: $opacity;
+  margin-left: $margin-left;
+  margin-top: $margin-top;
+}
