@@ -60,12 +60,11 @@ header {
 .box-description {
   background: #d7cbcb;
   width: 100%;
-  height: 205px;
+  height: auto;
   left: 0px;
-  top: 810px;
   .paragrafo-description {
     width: 100%;
-    height: 147px;
+    // height: auto;
     p {
       @include p-settings(
         $line-height: 49px,
@@ -83,7 +82,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  height: 1284px;
+  height: auto;
   background-color: #000000;
   .select-tasks {
     @include card-settings();
@@ -205,10 +204,15 @@ header {
 // 201 a 500 celular
 // 501 a 900 tablet
 // 901 a 1500 desktops e notebooks
+@media (min-width: 100px) and (max-width: 357px) {
+  // .navbar {
+  //   flex-direction: column;
+  // }
+}
 
 @media (min-width: 201px) and (max-width: 501px) {
   header {
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 0.2rem;
   }
   .nav-left {
     width: auto;
@@ -221,6 +225,31 @@ header {
       color: #fd1e1e;
       font-size: 1.3em;
     }
+  }
+
+  .box-images .select-tasks {
+    width: auto;
+    margin-left: 0.5px;
+  }
+  .box-images .select-time {
+    width: auto;
+    margin-left: 0.5px;
+  }
+  .box-images .select-pause {
+    width: auto;
+    margin-left: 0.5px;
+  }
+  .box-images .select-other-pom {
+    width: auto;
+    margin-left: 0.5px;
+  }
+  .box-images .select-four {
+    width: auto;
+    margin-left: 0.5px;
+  }
+  .box-images .select-initial-cicle {
+    width: auto;
+    margin-left: 0.5px;
   }
 }
 
