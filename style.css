@@ -27,8 +27,6 @@ header {
 }
 
 .nav-left {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 25vw;
 }
@@ -36,7 +34,7 @@ header {
   background-color: #b72222;
   color: #d7cbcb;
   text-decoration: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6em 1.2em;
 }
 
 .box-banner {
@@ -293,4 +291,37 @@ header {
   letter-spacing: 0%;
   color: #ffffff;
   padding-top: 15px;
+}
+
+@media (min-width: 201px) and (max-width: 501px) {
+  header {
+    padding: 0.5rem 1rem;
+  }
+  .nav-left {
+    width: auto;
+  }
+  .box-banner h1 {
+    font-size: 2.5em;
+  }
+  .box-banner p {
+    color: #fd1e1e;
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 501px) and (max-width: 901px) {
+  .nav-left {
+    width: auto;
+  }
+  .box-banner h1 {
+    font-size: 3.7em;
+  }
+  .box-banner p {
+    color: #fd1e1e;
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 902px) and (max-width: 1250px) {
+  .nav-left {
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
