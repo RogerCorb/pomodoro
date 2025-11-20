@@ -305,32 +305,56 @@ header {
     color: #fd1e1e;
     font-size: 1.3em;
   }
-  .box-images .select-tasks {
-    width: auto;
-    margin-left: 0.5px;
+  .box-images {
+    flex-direction: column;
+    padding: 15px 0px 40px 0px;
   }
-  .box-images .select-time {
-    width: auto;
-    margin-left: 0.5px;
-  }
-  .box-images .select-pause {
-    width: auto;
-    margin-left: 0.5px;
-  }
+  .box-images .select-time,
+  .box-images .select-pause,
+  .box-images .select-initial-cicle,
+  .box-images .select-four,
   .box-images .select-other-pom {
-    width: auto;
-    margin-left: 0.5px;
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
   }
-  .box-images .select-four {
-    width: auto;
-    margin-left: 0.5px;
+  .box-images .select-time img,
+  .box-images .select-pause img,
+  .box-images .select-initial-cicle img,
+  .box-images .select-four img,
+  .box-images .select-other-pom img {
+    width: 330px;
+    height: 480px;
+    margin-left: 16px;
   }
-  .box-images .select-initial-cicle {
-    width: auto;
-    margin-left: 0.5px;
+  .box-images .select-time p,
+  .box-images .select-pause p,
+  .box-images .select-initial-cicle p,
+  .box-images .select-four p,
+  .box-images .select-other-pom p {
+    width: 90vw;
+    text-align: start;
+    margin-left: 13px;
+    font-size: 30px;
+  }
+  .box-images .select-tasks {
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+  }
+  .box-images .select-tasks .image-tasks {
+    width: 300px;
+    height: 340px;
+    margin-top: 45px;
+  }
+  .box-images .select-tasks .paragrafo-tasks {
+    margin-left: 2px;
+  }
+  .box-images .select-tasks .paragrafo-tasks p {
+    font-size: 35px;
   }
 }
-@media (min-width: 501px) and (max-width: 901px) {
+@media (min-width: 502px) and (max-width: 901px) {
   .nav-left {
     width: auto;
   }
@@ -340,6 +364,19 @@ header {
   .box-banner p {
     color: #fd1e1e;
     font-size: 1.5em;
+  }
+  .box-images {
+    flex-direction: column;
+    padding: 15px 0px 40px 0px;
+  }
+  .box-images .select-tasks,
+  .box-images .select-time,
+  .box-images .select-pause,
+  .box-images .select-initial-cicle,
+  .box-images .select-four,
+  .box-images .select-other-pom {
+    margin: 10px;
+    padding: 10px;
   }
 }
 @media (min-width: 902px) and (max-width: 1250px) {
