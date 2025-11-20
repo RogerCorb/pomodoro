@@ -80,6 +80,7 @@ header {
   width: 100%;
   height: auto;
   background-color: #000000;
+  padding: 15px 0px 40px 0px;
 }
 .box-images .select-tasks {
   width: 405px;
