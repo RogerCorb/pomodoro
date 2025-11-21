@@ -205,11 +205,6 @@ header {
 // 201 a 500 celular
 // 501 a 900 tablet
 // 901 a 1500 desktops e notebooks
-@media (min-width: 100px) and (max-width: 357px) {
-  // .navbar {
-  //   flex-direction: column;
-  // }
-}
 
 @media (min-width: 201px) and (max-width: 501px) {
   header {
