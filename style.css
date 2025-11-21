@@ -379,6 +379,11 @@ header {
     margin: 10px;
     padding: 10px;
   }
+  .box-images .select-tasks .image-tasks {
+    width: 372px;
+    height: 361px;
+    margin-top: 20px;
+  }
 }
 @media (min-width: 902px) and (max-width: 1250px) {
   .nav-left {

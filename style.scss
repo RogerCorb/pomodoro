@@ -269,31 +269,6 @@ header {
       }
     }
   }
-
-  // .box-images .select-tasks {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
-  // .box-images .select-time {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
-  // .box-images .select-pause {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
-  // .box-images .select-other-pom {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
-  // .box-images .select-four {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
-  // .box-images .select-initial-cicle {
-  //   width: auto;
-  //   margin-left: 0.5px;
-  // }
 }
 
 @media (min-width: 502px) and (max-width: 901px) {
@@ -320,6 +295,13 @@ header {
     .select-other-pom {
       margin: 10px;
       padding: 10px;
+    }
+    .select-tasks {
+      .image-tasks {
+        width: 372px;
+        height: 361px;
+        margin-top: 20px;
+      }
     }
   }
 }
